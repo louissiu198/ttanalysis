@@ -2,8 +2,8 @@
 ## Signatures
 ### X-Argus
 Generate Protobuf
-1. CAL => calculation to calculate specific values
-2. HINT => easy to figure out, a hint provided
+1. CAL => calculation to calculate specific values, won't be released, assume you have them
+2. HINT => easy to figure out, a hint provided, can't express the meaning of them
 3. DEP => depreciated
 
 Protobuf Field Table
