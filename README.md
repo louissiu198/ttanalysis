@@ -81,13 +81,13 @@ Encrypt "timestamp-licenseId-appId" // data
 
 ### X-Khronos
 *Depreciated*
-Timestamp - s
+- Timestamp - s
 
 ### X-SS-STUB
 *Not Required*
-MD5hash the string payload
+- MD5hash the string payload
 
 ### X-SS-REQ-TICKET
 *Not Required*
-Timestamp - ms
+- Timestamp - ms
 
