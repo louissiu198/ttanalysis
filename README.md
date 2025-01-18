@@ -1,7 +1,7 @@
 # TikTok Analysis
 ## Signatures
 ### X-Argus
-# Protobuf Field Table
+#### Protobuf Field Table
 | Field Number | Data Type      | Field Name                        | Description                       | Calculation                       | Required                          |
 |--------------|----------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 | 1            | `int32`       | Magic                              | 0x20200929 << 1
