@@ -1,10 +1,9 @@
 # Protobuf Field Table
 
-This document outlines the field numbers, data types, and descriptions for a Protocol Buffers message.
 
 | Field Number | Data Type      | Description                       |
 |--------------|----------------|-----------------------------------|
-| 1            | `int32`       | User ID                           |
+| 1            | `int32`       | Magic                           |
 | 2            | `string`      | User Name                         |
 | 3            | `string`      | Email Address                     |
 | 4            | `int32`       | Age                               |
@@ -36,6 +35,4 @@ This document outlines the field numbers, data types, and descriptions for a Pro
 | 30           | `bool`        | Is Admin                          |
 | 31           | `string`      | Notes                             |
 
-## Usage
 
-This table serves as a reference for defining messages in your Protocol Buffers schema. Adjust data types and descriptions as needed based on your specific requirements.
