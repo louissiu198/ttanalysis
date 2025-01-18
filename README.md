@@ -1,6 +1,7 @@
 # TikTok Analysis
 ## Signatures
 ### X-Argus
+1. Generate Protobuf
 Protobuf Field Table
 | Field Number | Data Type      | Field Name                        | Description                       | Calculation                       | Required                          |
 |--------------|----------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
@@ -47,5 +48,11 @@ Protobuf Field Table
 | 29           | `string`      | Investigating                      |                                   | [UNKNOWN] 6 digit -> static 
 | 30           | `bool`        | optionType                         |                                   | [HINT]: situation type for query
 | 31           | `string`      | Random                             | range(0, 0x7FFFFFFF) << 1         | [UNKNOWN] random
-
+2. Shift / unpack
+3. Simon Encrypt into arrays
+4. Encrypt Enc Pb
+5. Bufer: Pack bytes of sp and field 13 / 14
+6. Pck7 Padding
+7. AES encrypt
+8. base64 encrypt
 
