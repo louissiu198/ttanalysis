@@ -2,9 +2,9 @@
 ## Signatures
 ### X-Argus
 1. Generate Protobuf
-   CAL => calculation to calculate specific values
-   HINT => easy to figure out, a hint provided
-   DEP => depreciated
+CAL => calculation to calculate specific values
+HINT => easy to figure out, a hint provided
+DEP => depreciated
 
 Protobuf Field Table
 | Field Number | Data Type      | Field Name                        | Description                       | Calculation                       | Required                          |
