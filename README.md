@@ -1,15 +1,15 @@
 # Protobuf Field Table
 
 
-| Field Number | Data Type      | Field Name                        | Description                       |
-|--------------|----------------|-----------------------------------|-----------------------------------|
-| 1            | `int32`       | Magic                              |
-| 2            | `int32`       | Version                            |
-| 3            | `string`      | XorRand                            |
-| 4            | `int32`       | AppId                              |
-| 5            | `bool`        | DeviceId                           |
-| 6            | `string`      | LicenseID                          |
-| 7            | `string`      | AppVersion                         |
+| Field Number | Data Type      | Field Name                        | Description                       | Calculation                       |
+|--------------|----------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| 1            | `int32`       | Magic                              | 0x20200929 << 1
+| 2            | `int32`       | Version                            | 2
+| 3            | `string`      | XorRand                            | randint(0, 0x7FFFFFFF) << 1
+| 4            | `int32`       | AppId                              | params["aid"]
+| 5            | `bool`        | DeviceId                           | 75...........                     | LogEndpoint -> DeviceRegister
+| 6            | `string`      | LicenseID                          | 2142840551                        | AppVersion > 260000
+| 7            | `string`      | AppVersion                         | 38.X.X                            
 | 8            | `string`      | MssdkVersionStr                    |
 | 9            | `string`      | MssdkVersionInt                    |
 | 10           | `string`      | EncryptBytes                       |
