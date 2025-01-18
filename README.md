@@ -2,7 +2,6 @@
 ## Signatures
 ### X-Argus
 1. Generate Protobuf
-   
 Protobuf Field Table
 | Field Number | Data Type      | Field Name                        | Description                       | Calculation                       | Required                          |
 |--------------|----------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
