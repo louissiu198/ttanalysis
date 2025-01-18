@@ -2,7 +2,7 @@
 ## Signatures
 ### X-Argus
 Generate Protobuf
-CAL => calculation to calculate specific values
+CAL -> calculation to calculate specific values
 HINT => easy to figure out, a hint provided
 DEP => depreciated
 
