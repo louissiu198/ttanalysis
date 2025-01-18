@@ -53,7 +53,30 @@ Protobuf Field Table
 3. Simon Encrypt into arrays
 4. Encrypt Enc Pb
 5. Bufer: Pack bytes of sp and field 13 / 14
-6. Pck7 Padding
+6. PCK7 Padding (Not Released: a new type of padding for appVer > 38.0.0)
 7. AES encrypt
 8. base64 encrypt
+
+### X-Ladon
+Encrypt "timestamp-licenseId-appId" // data
+1. generate key - md5 -> random + appId
+2. PCK7 Padding
+3. Turn it into arrays of bytes
+4. Hash keyByte, data, size of data
+5. Base64 encrypt bytes -> string
+
+### X-Gorgon
+Depreciated
+
+### X-Khronos
+Depreciated
+Timestamp - s
+
+### X-SS-STUB
+Not Required
+MD5hash the string payload
+
+### X-SS-REQ-TICKET
+Not Required
+Timestamp - ms
 
