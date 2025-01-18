@@ -4,35 +4,34 @@
 | Field Number | Data Type      | Description                       |
 |--------------|----------------|-----------------------------------|
 | 1            | `int32`       | Magic                           |
-| 2            | `string`      | User Name                         |
-| 3            | `string`      | Email Address                     |
-| 4            | `int32`       | Age                               |
-| 5            | `bool`        | Is Active                         |
-| 6            | `string`      | Phone Number                      |
-| 7            | `string`      | Address                           |
-| 8            | `string`      | City                              |
-| 9            | `string`      | State                             |
-| 10           | `string`      | Country                           |
-| 11           | `float`       | Account Balance                   |
-| 12           | `int64`       | Created Timestamp                 |
-| 13           | `int64`       | Updated Timestamp                 |
-| 14           | `string`      | Profile Picture URL               |
-| 15           | `string`      | Bio                               |
-| 16           | `bool`        | Email Verified                    |
-| 17           | `int32`       | Login Attempts                    |
-| 18           | `string`      | Last Login IP                     |
-| 19           | `string`      | Last Login Timestamp              |
-| 20           | `repeated string` | Roles                        |
-| 21           | `int32`       | Number of Posts                   |
-| 22           | `int32`       | Number of Followers               |
-| 23           | `int32`       | Number of Following               |
-| 24           | `string`      | Website URL                       |
-| 25           | `string`      | Facebook Profile URL              |
-| 26           | `string`      | Twitter Profile URL               |
-| 27           | `string`      | LinkedIn Profile URL              |
-| 28           | `string`      | Instagram Profile URL             |
-| 29           | `string`      | TikTok Profile URL                |
-| 30           | `bool`        | Is Admin                          |
-| 31           | `string`      | Notes                             |
+| 2            | `int32`      | Version                         |
+| 3            | `string`      | XorRand                     |
+| 4            | `int32`       | AppId                               |
+| 5            | `bool`        | DeviceId                         |
+| 6            | `string`      | LicenseID                      |
+| 7            | `string`      | AppVersion                           |
+| 8            | `string`      | MssdkVersionStr                              |
+| 9            | `string`      | MssdkVersionInt                             |
+| 10           | `string`      | EncryptBytes                           |
+| 11           | `float`       | DevicePlatform                   |
+| 12           | `int64`       | Timestamp                 |
+| 13           | `int64`       | SM3-Stub                 |
+| 14           | `string`      | SM3-Query               |
+| 15           | `string`      | DeviceInfo                               |
+| 16           | `bool`        | DeivceToken                    |
+| 17           | `int32`       | Timestamp                    |
+| 18           | `string`      | LanuskHash                     |
+| 19           | `string`      | PskCalHash              |
+| 20           | `string`      | PskVersion                        |
+| 21           | `int32`       | paskCalType                   |
+| 23           | `int32`       | DeviceInfo               |
+| 24           | `string`      | SeedData                       |
+| 25           | `string`      | optionType              |
+| 26           | `string`      | dynHash               |
+| 27           | `string`      | Timestamp              |
+| 28           | `string`      | OptionType             |
+| 29           | `string`      | Investigating               |
+| 30           | `bool`        | optionType                          |
+| 31           | `string`      | Random                             |
 
 
