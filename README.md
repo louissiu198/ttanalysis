@@ -1,7 +1,7 @@
 # TikTok Analysis
 ## Signatures
 ### X-Argus
-1. Generate Protobuf
+Generate Protobuf
 CAL => calculation to calculate specific values
 HINT => easy to figure out, a hint provided
 DEP => depreciated
