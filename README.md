@@ -6,6 +6,7 @@ Generate Protobuf
 2. HINT => easy to figure out, a hint provided, can't express the meaning of them
 3. DEP => depreciated
 
+CommonKey => different from different appID
 Protobuf Field Table
 | Field Number | Data Type      | Field Name                        | Description                       | Calculation                       | Required                          |
 |--------------|----------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
