@@ -77,17 +77,17 @@ Encrypt "timestamp-licenseId-appId" // data
 5. Base64 encrypt bytes -> string
 
 ### X-Gorgon
-Depreciated
+*Depreciated*
 
 ### X-Khronos
-Depreciated
+*Depreciated*
 Timestamp - s
 
 ### X-SS-STUB
-Not Required
+*Not Required*
 MD5hash the string payload
 
 ### X-SS-REQ-TICKET
-Not Required
+*Not Required*
 Timestamp - ms
 
