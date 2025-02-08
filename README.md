@@ -67,6 +67,7 @@ Protobuf Field Table
 6. PCK7 Padding (Not Released: a new type of padding for appVer > 38.0.0)
 7. AES encrypt
 8. base64 encrypt
+it matches with x-ladon - data -> ts, lcid, aid
 
 ### X-Ladon
 Encrypt "timestamp-licenseId-appId" // data
@@ -75,13 +76,15 @@ Encrypt "timestamp-licenseId-appId" // data
 3. Turn it into arrays of bytes
 4. Hash keyByte, data, size of data
 5. Base64 encrypt bytes -> string
+it matches with x-argus - data -> ts, lcid, aid
 
 ### X-Gorgon
 *Depreciated*
-
+it matches with x-khorons - ts
 ### X-Khronos
 *Depreciated*
 - Timestamp - s
+it matches with x-gorgon - ts
 
 ### X-SS-STUB
 *Not Required*
